@@ -20,7 +20,7 @@ The economics are simple: surface ambiguities as a list first, resolve one by on
 
 ### What We Expect
 
-Use sequential_thinking to reason about probing depth during RESOLVE. Present understanding at confidence checkpoints. Investigate autonomously using authoritative sources (transcripts, conversations, client-delivered data artifacts). Present resolution drafts only after probing reaches confidence. The user's instinctive judgment — "this clicks" or "this doesn't click" — is the only validation that matters.
+Use sequential_thinking to reason about probing depth during RESOLVE. Present understanding at confidence checkpoints. Investigate autonomously using authoritative sources (transcripts, conversations, client-delivered data artifacts). RESOLVE captures the user's verbatim words — the raw material that UPDATE transforms into instructional prose. Resolution drafts do not appear during RESOLVE. The user's instinctive judgment — "this clicks" or "this doesn't click" — is the only validation that matters.
 
 ## Task Lifecycle
 
@@ -59,7 +59,7 @@ Read the scoped part text and user-directed sources. Produce a numbered list of 
 
 ### RESOLVE: Chisel Ambiguity One Item at a Time
 
-Walk through each SURFACE item individually. You own probing depth — probe as deeply as you see value. When you're confident, present a resolution draft. The user owns transitions — never advance to the next item without explicit approval.
+Walk through each SURFACE item individually. You own probing depth — probe as deeply as you see value. When probing dries up, capture the user's verbatim words as the resolution record — not a synthesized draft. The user owns transitions — never advance to the next item without explicit approval.
 
 **Self-routing:** Before asking the user, match the uncertainty's topic against available source descriptions (project index summaries, conversation titles, data artifact names). When a source likely contains the answer, read it using the appropriate tool (transcript reader for transcripts, conversation-reader for prior sessions, standard tools for data artifacts). Investigation informs the question — the user question is always the convergence point.
 
@@ -141,7 +141,7 @@ Confidence is binary — you either have enough understanding to present, or you
 
 ### How Confidence Works
 
-**Within RESOLVE items:** Probe until confident → present resolution draft → user validates. This is the micro-gate. Multiple probing rounds are normal. Each round resolves ambiguities until you're ready to present.
+**Within RESOLVE items:** Probe until understanding deepens → capture verbatim resolution record → user signals transition. This is the micro-gate. Multiple probing rounds are normal. Each round resolves ambiguities until the user signals readiness to move on.
 
 **Make ambiguities explicit.** When you're not yet confident, state what you're ambiguous about and what question you're investigating. "I'm ambiguous about X — checking transcript Y" is better than silently probing. Explicit ambiguities become shared understanding.
 
