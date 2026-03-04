@@ -42,7 +42,7 @@ Conversation paths go in Source section — available for future extraction pass
 
 **ASSESS:** Publish-verify-review.
 
-1. If target document is in hippocampus → publish via `~/.claude/skills/hippocampus/scripts/verify_publish.sh "{tier}" "{filename}"`,
+1. If target document is in hippocampus → publish via `scripts/verify_publish.sh "{tier}" "{filename}"`,
    present commit link + published doc URL
 2. If target document is NOT in hippocampus → commit changes, present git commit link as
    the review artifact
