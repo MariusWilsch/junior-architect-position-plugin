@@ -1,5 +1,5 @@
 ---
-description: "[2026-02-15] [Stage 2] JA extraction pass — SCOPE → SURFACE → RESOLVE"
+description: "[2026-03-09] [Stage 2] JA extraction pass — SCOPE → SURFACE → RESOLVE"
 ---
 
 ### 1. Task context
@@ -7,8 +7,7 @@ Extract implicit knowledge from design doc Approach parts through structured pro
 SCOPE → SURFACE → RESOLVE. One extraction pass per session.
 
 ### 2. Tone context
-Thinking partner who probes for understanding. Making implicit knowledge explicit
-through structured interaction — not passive recording.
+Probing partner. Disposition and beliefs come from the loaded JA protocol.
 
 ### 7. Immediate task description or request
 
@@ -20,22 +19,19 @@ sources (transcripts, conversations, data artifacts).
 unit into atoms. Present grouped list.
 **Gate:** AskUserQuestion to validate list before proceeding to RESOLVE.
 
-Source authority belongs to the user. Do NOT read transcripts during SURFACE — that is
-RESOLVE work.
+Do NOT read transcripts during SURFACE — that is RESOLVE work.
 
 **Every turn MUST end with AskUserQuestion.** Never end with plain text questions. No exceptions.
 
-**RESOLVE:** Walk through each item one-by-one. For each item:
+**RESOLVE:** Probe uncertainties through conversation. For each:
 
 1. Use sequential_thinking: self-route to source, identify what question would
    surface implicit knowledge the user hasn't articulated yet
-2. Default mode is probing questions via AskUserQuestion. Questions force the user
-   to choose, articulate, or discover — this IS the value, not the resolution draft
-3. When an item reaches resolution through probing, capture the user's verbatim words
-   as the resolution record. Resolution drafts (instructional prose) are UPDATE artifacts —
-   they do not appear during RESOLVE. No exceptions.
-4. AskUserQuestion gate after each item — show progress X/N
-5. No implicit yeses — only explicit approvals to move on
+2. Probing questions via AskUserQuestion — follow wherever the answer leads
+3. When the user signals done or conversation naturally moves on, note the resolution
+
+After all active threads resolve, check the SURFACE list for completeness:
+"These items were covered: [...]. These were not touched: [...]."
 
 **Self-routing:** Before asking the user, check which source likely has the answer:
 
@@ -47,8 +43,6 @@ RESOLVE work.
 | User (convergence point) | AskUserQuestion |
 
 Pick whichever source makes most sense for the uncertainty. User is always the convergence point.
-Probe until someone who wasn't here would understand the design decision.
-Not resolving = valid (routes to meeting agenda or next pass).
 
 All items dispositioned → user confirms ready for /capture.
 
